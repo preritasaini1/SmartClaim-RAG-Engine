@@ -28,24 +28,24 @@ SmartClaim is an end-to-end AI system that transforms how you interact with insu
 ## 📷 Application Preview
 
 ### Dashboard  
-![Dashboard Preview](screenshots/dashboard.png)  
+![Dashboard Preview](Demo/Dashboard.png)  
 *Clean, intuitive main interface for policy analysis*
 
 ### Policy Upload & Processing  
-![Policy Upload](screenshots/upload.png)  
+![Policy Upload](Demo/Policy.png)  
 *Seamless PDF upload with real-time processing status*
 
 ### Clause-Backed Answers  
-![Answer Screen](screenshots/answer.png)  
+![Answer Screen](Demo/Answer.png)  
 *Detailed decisions with reasoning and source clause references*
 
 ### Professional Reports  
-![Report Download](screenshots/report.png)  
+![Report Download](Demo/Report.png)  
 *Downloadable PDF reports for documentation*
 
 ## 🎥 Demo
 
-> 📹 [Watch Demo Video](#) | 💫 [Try Live Demo](#)
+> 📹 [Watch Demo Video](#https://drive.google.com/file/d/1-EPfmjlGsvri_X5K37Cu_spzOU5wFxZe/view?usp=sharing) | 💫 [Try Live Demo](#)
 
 ## 🏗️ Architecture
 
