@@ -46,7 +46,7 @@ SmartClaim is an end-to-end AI system that transforms how you interact with insu
 ## 🎥 Demo
 
 > 📹 [Watch Demo Video](https://drive.google.com/file/d/1-EPfmjlGsvri_X5K37Cu_spzOU5wFxZe/view?usp=sharing) <br>
-> 💫 [Try Live Demo](#)
+> 💫 [Try Live Demo](https://smartclaim-rag-engine-en9hkrxpqrwxxrxss7nkjx.streamlit.app/)
 
 ## 🏗️ Architecture
 
