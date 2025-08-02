@@ -1,5 +1,6 @@
 import streamlit as st
 import fitz  # PyMuPDF
+import os
 import google.generativeai as genai
 import faiss
 import numpy as np
@@ -10,6 +11,14 @@ import json
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("GENAI_API_KEY")
+if not API_KEY:
+    raise RuntimeError("GENAI_API_KEY is not set. Please define it as an environment variable or in a .env file.")
+genai.configure(api_key=API_KEY)
 
 # PAGE CONFIG 
 st.set_page_config(
@@ -127,9 +136,6 @@ st.markdown("""
     <p>Upload an insurance policy, ask coverage questions, and get grounded AI answers with smart features</p>
 </div>
 """, unsafe_allow_html=True)
-
-# CONFIGURE API
-genai.configure(api_key="AIzaSyDxy2iZ1nDL7TbwwrnVTyydaCAgAB6hCY0")
 
 # HELPER FUNCTION FOR SIDEBAR SPACING 
 def add_vertical_space(num_lines):
@@ -768,4 +774,5 @@ st.markdown("""
 <div style="text-align:center; color:#666;">
     <p>Enhanced with smart features for better insurance policy analysis 🚀</p>
 </div>
+
 """, unsafe_allow_html=True)
